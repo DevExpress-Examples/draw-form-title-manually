@@ -3,18 +3,13 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3327)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# How to draw a form title manually
+
+You can draw an XtraForm's title if title bar skinning is enabled (for example, the [DevExpress.Skins.SkinManager.EnableFormSkins](https://docs.devexpress.com/WindowsForms/DevExpress.Skins.SkinManager.EnableFormSkins) method is called at application startup). This example shows how to create a custom `FormPainter` and override its methods to display an animated running line within the form's caption.
+
+
+## Files to Review
 
 * [Main.cs](./CS/WindowsApplication3/Main.cs) (VB: [Main.vb](./VB/WindowsApplication3/Main.vb))
 * [Program.cs](./CS/WindowsApplication3/Program.cs) (VB: [Program.vb](./VB/WindowsApplication3/Program.vb))
-<!-- default file list end -->
-# How to draw a form title manually
-
-
-<p>If you are using our XtraForm and title bar skinning feature is enabled (i.e. you call the DevExpress.Skins.SkinManager.EnableFormSkins method at application startup) you can custom draw a form's title. It can be done by creating a custom FormPainter and by overriding its methods.</p>
-<p>This example illustrates how to display a creeping line within the form's title.</p>
-
-<br/>
-
-
