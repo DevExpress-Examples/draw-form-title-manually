@@ -8,7 +8,7 @@
 
 > **Important**
 >
-> This example uses internal APIs that may changed in newer versions.
+> This example uses internal APIs that may change in newer versions.
 
 You can draw an XtraForm's title if title bar skinning is enabled (for example, the [DevExpress.Skins.SkinManager.EnableFormSkins](https://docs.devexpress.com/WindowsForms/DevExpress.Skins.SkinManager.EnableFormSkins) method is called at application startup). This example shows how to create a custom `FormPainter` and override its methods to display an animated running line within the form's caption.
 
